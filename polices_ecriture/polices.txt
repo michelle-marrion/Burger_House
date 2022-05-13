@@ -1,0 +1,18 @@
+/* Polices d'écriture */
+
+/* Pour le Menu */
+
+Cantarell
+
+
+/* titre H1 */
+
+The Bold Font
+
+/* titre h2 */
+
+Heavitas
+
+/* papragraphe*/
+
+Century Gothic
