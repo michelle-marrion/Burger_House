@@ -7,19 +7,22 @@
 	<title>Burger House</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
+<!-- Style css -->
 <style type="text/css">
 	
 </style>
+<!-- Contenu de la page -->
 <body>
 	<div id="bloc-page">
 		<!-- Entete -->
 		<header id="bloc-header">
 			<div id="entete">
-				<div id="logo">
-					<img src="images/logo/logo.png" alt="Burger House" >   
+				<div class="logo">
+					<img src="images/logo/logo.png" alt="Burger House">
 				</div>
-				<div >
-					<div >
+				<div class="bloc-nav">
+					<div class="express-delivered">
 						<img src="images/logo/delivered.png">
 						<p>Express Delivery +237 673 66 71 39</p>
 					</div>
@@ -40,8 +43,8 @@
 					</div>
 				</div>
 				<div id="only-burger">
-					<div id="price">
-						<div id="price-circle">
+					<div class="price">
+						<div class="price__circle">
 							<h3>$5</h3>.49
 							<P>ONLY</P>
 						</div>
@@ -52,9 +55,9 @@
 		</header>
 
 		<!-- Body -->
-		<section id="bloc-body">
-			<section id=" Try-it-today">
-				<div id="burger-oignon" class="burger-oignon">
+		<section class="bloc-body">
+			<section class=" Try-it-today">
+				<div class="burger-oignon">
 					<h3>try it today</h3>
 					<h2>Most Popular Burger</h2>
 				</div>
@@ -69,8 +72,8 @@
 					</div>
 				</div>
 			</section>
-			<section id="choose-enjoy">
-				<div id="always-tasty-burger">
+			<section class="choose-enjoy">
+				<div class="btn-presentation">
 					<h3>always tasty burger</h3>
 				</div>
 				<h2> choose & enjoy </h2>
@@ -81,10 +84,10 @@
 					<div class="food">
 						<img src="images/burgers/png">
 						<img src="images/burgers/">
-						<div>
+						<div class="food__description">
 							<h3>LOREM IPSUM DOLOR</h3>
 							<p>This is a delicious burger with <span>tomato</span>, <span>Salad </span>, <span> meat </span>, <span> oigon </span>, and <span> curry </span>.</p>
-							<div>
+							<div class="btn-order">
 								<h4><a href="#">ORDER NOW</a> </h4>
 							</div>
 						</div>
@@ -92,10 +95,10 @@
 					<div class="food">
 						<img src="images/burgers/png">
 						<img src="images/burgers/">
-						<div>
+						<div class="food__description">
 							<h3>LOREM IPSUM DOLOR</h3>
 							<p>This is a delicious burger with <span>tomato</span>, <span>Salad </span>, <span> meat </span>, <span> oigon </span>, and <span> curry </span>.</p>
-							<div>
+							<div class="btn-order">
 								<h4><a href="#">ORDER NOW</a> </h4>
 							</div>
 						</div>
@@ -103,71 +106,75 @@
 					<div class="food">
 						<img src="images/burgers/png">
 						<img src="images/burgers/">
-						<div>
+						<div class="food__description">
 							<h3>LOREM IPSUM DOLOR</h3>
 							<p>This is a delicious burger with <span>tomato</span>, <span>Salad </span>, <span> meat </span>, <span> oigon </span>, and <span> curry </span>.</p>
-							<div>
+							<div class="btn-order">
 								<h4><a href="#">ORDER NOW</a> </h4>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section id="discover">
-				<div id="discover-text">
+			<section class="discover">
+				<div class="discover__text">
+					<h3>DISCOVER</h3>
 					<h2>UPCOMING EVENTS</h2>
 					<p>
 						
 					</p>
-					<div id="circle">
+					<div class="discover__circle">
 						
 					</div>
 				</div>
 
-				<div id="burg">
+				<div class="discover__image">
 					
 				</div>
 				
 			</section>
-			<section id="reservation">
-				<div>
+			<section class="reservation">
+
+				<div class="reservation__text">
 					<h3>RESERVATION</h3>
 					<h2>BOOK YOUR TABLE</h2>
 				</div>
-				<form>
+
+				<form class="reservation-form">
 					<input type="text" name="name" placeholder="NAME">
 					<input type="text" name="DATE">
 					<input type="text" name="TIME">
 					<input type="text" name="PEOPLE">
-					<input type="submit" value="FIND A TABLE">
+					<input type="submit" value="FIND A TABLE" class="btn-order find-table">
 				</form>
+
 			</section>
 		</section>
 
 		<!-- Pied de page -->
 		<footer id="bloc-footer">
-			<section id="footer">
-				<div >
-					<div>
-						<div>
+			<section class="footer">
+				<div class="footer-header">
+					<div class="burger-house">
+						<div class="logo">
 							<img src="images/logo/logo-white.png">
 						</div>
-						<div >
+						<div class="burger-house__text">
 							<p>
 								
 							</p>
 						</div>
 					</div>
-					<div>
+					<div class="footer-contact">
 						<li><img src="images/icon-media/Location-Icon.png"> <label></label></li>
 						<li><img src="images/icon-media/Email.png"> <label></label></li>
 					</div>
 				</div>
-				<div >
-					<div id="">
+				<div class="footer-footer">
+					<div class="copyright">
 						
 					</div>
-					<div id="media-social">
+					<div id="footer-media-social">
 						<img src="images/icon-media/Instagram.png" alt="Instagram">
 						<img src="images/icon-media/Facebook.png" alt="Facebook">
 						<img src="" alt="Twitter">
